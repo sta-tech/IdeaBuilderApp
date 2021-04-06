@@ -1,2 +1,5 @@
 bin
 obj
+.vs
+/src/Services/Idea/.vs/IdeasService/v16/*.suo
+/src/Services/Idea/Ideas.API/*.user
