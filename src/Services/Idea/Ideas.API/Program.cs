@@ -1,3 +1,6 @@
+using Ideas.API.Extensions;
+using Ideas.API.Infrastructure;
+using Ideas.Infrastructure;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -5,14 +8,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Serilog;
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
-
-using Ideas.API.Extensions;
-using Ideas.API.Infrastructure;
-using Ideas.Infrastructure;
 
 namespace Ideas.API
 {
